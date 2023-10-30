@@ -1,6 +1,5 @@
 
 import './App.css';
-import PokemonSearch from './components/PokemonSearch';
 import PokeData from './components/PokeData'
 import Card from './components/Card';
 import './components/style.css'

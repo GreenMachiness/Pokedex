@@ -47,7 +47,7 @@ function Card(props) {
       <h2>Name: {name}</h2>
       <p>Type {data.types[0].type.name}</p>
       <div>Abilities {data.abilities[0].ability.name}</div>
-      <Link to={`/PokeView/${data.id}`}>
+      <Link to={`/PokeView/${data.name}`}>
             PokeView
         </Link>
     </div>
